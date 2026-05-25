@@ -1,0 +1,31 @@
+# NEVER include source code
+*.js
+*.ts
+*.jsx
+*.tsx
+*.html
+*.css
+*.json
+!package.json
+!docs/*.md
+!README.md
+!LICENSE
+
+# NEVER include secrets
+*.pem
+*.p12
+*.key
+.env
+.env.*
+secrets.*
+config.*
+
+# NEVER include build internals
+dist/
+node_modules/
+vendor/
+src/
+js/
+static/
+scripts/
+build/
